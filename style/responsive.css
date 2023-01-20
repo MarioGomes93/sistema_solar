@@ -1,0 +1,29 @@
+@media screen and (max-width:1000px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .descricao{
+        width: 40%;
+    }
+
+    .box-filme{
+        height: 190vw;
+        display: block;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 35%;
+    }
+}
